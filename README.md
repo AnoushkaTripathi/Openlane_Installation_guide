@@ -28,6 +28,25 @@ Verify that the Docker Engine installation is successful by running the hello-wo
 ```
 sudo docker run hello-world
 ```
+The "permission denied" error when trying to connect to the Docker daemon socket at unix:///var/run/docker.sock typically indicates that your user does not have the necessary permissions to access the Docker socket. This can happen when you are not part of the `docker` group, or if the Docker service is not running.
+
+Here are the steps to resolve this issue:
+
+### 1. Add Your User to the Docker Group
+
+1. **Create the Docker group**:
+    ```sh
+    sudo groupadd docker
+    ```
+
+2. **Add your user to the Docker group**:
+    ```sh
+    sudo usermod -aG docker $USER
+    ```
+
+
+
+
 ## Installing Openlane
 ![image](https://github.com/user-attachments/assets/72e77a69-5a24-42ed-9a6f-c6723a7d2005)
 
