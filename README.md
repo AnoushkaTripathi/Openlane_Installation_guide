@@ -59,9 +59,11 @@ python3 -m pip --version
 make --version
 python3 -m venv -h
 ```
-To install make
+Update the package database and upgrade the packages to avoid version mismatches then install required packages as follows:
 ```
-sudo apt install make
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install -y build-essential python3 python3-venv python3-pip python3-tk curl make git
 ```
 
 ```
