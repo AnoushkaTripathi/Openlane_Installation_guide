@@ -3,6 +3,9 @@
 ![image](https://github.com/user-attachments/assets/64ce5674-3e3d-492f-bde6-abcda1b12f40)
 
 Installing Docker
+
+![image](https://github.com/user-attachments/assets/fae438f8-7808-4c2c-854c-f3d22768f791)
+
 ```
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -25,3 +28,5 @@ Verify that the Docker Engine installation is successful by running the hello-wo
 ```
 sudo docker run hello-world
 ```
+## Installing Openlane
+![image](https://github.com/user-attachments/assets/72e77a69-5a24-42ed-9a6f-c6723a7d2005)
