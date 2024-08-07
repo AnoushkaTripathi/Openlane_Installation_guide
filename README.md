@@ -30,3 +30,11 @@ sudo docker run hello-world
 ```
 ## Installing Openlane
 ![image](https://github.com/user-attachments/assets/72e77a69-5a24-42ed-9a6f-c6723a7d2005)
+
+```
+cd $HOME
+git clone https://github.com/The-OpenROAD-Project/OpenLane
+cd OpenLane
+make
+make test
+```
