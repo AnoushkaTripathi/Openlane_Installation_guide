@@ -31,6 +31,16 @@ sudo docker run hello-world
 ## Installing Openlane
 ![image](https://github.com/user-attachments/assets/72e77a69-5a24-42ed-9a6f-c6723a7d2005)
 
+Make sure you have required packages for openlane installation
+```
+git --version
+docker --version
+python3 --version
+python3 -m pip --version
+make --version
+python3 -m venv -h
+```
+
 ```
 cd $HOME
 git clone https://github.com/The-OpenROAD-Project/OpenLane
