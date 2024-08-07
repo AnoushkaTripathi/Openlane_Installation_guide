@@ -40,6 +40,10 @@ python3 -m pip --version
 make --version
 python3 -m venv -h
 ```
+To install make
+```
+sudo apt install make
+```
 
 ```
 cd $HOME
